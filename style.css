@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common styles */
+.primary-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 16px 36px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
+
+nav,
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+nav h1 {
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav h1 span {
+    color: #FD6E0A;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px
+}
+
+/* bannner */
+.banner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    margin: 30px 0;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 12px 36px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #FD6E0A;
+
+    font-weight: 700;
+}
+
+/* about */
+.about,
+.what {
+    width: 80%;
+    margin: 130px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.about-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-descript {
+    margin: 30px 0;
+}
+
+.about-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* what section */
+.what {
+    background-color: #FFF;
+}
+
+.what-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-descript {
+    margin: 30px 0 50px 0;
+}
+
+.what-skils {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.skill-details {
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.skill-details strong {
+    display: block;
+    margin: 30px 0;
+}
+
+.skill-details p {
+    font-size: 16px;
+    font-weight: 400
+}
