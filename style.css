@@ -184,3 +184,34 @@ margin-bottom: 50px;
 .download-cv{
     margin: 60px;
 }
+/* footer */
+footer{
+    background-color: #FFF8F3;
+   
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer-text i{
+    color: #FD6E0A;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.footer-text p{
+    margin: 10px 0;
+}
+input,textarea{
+display: block;
+margin-top: 5px;
+border: none;
+padding: 5px 10px;
+font-size: 16px;
+font-weight: 400;
+}
